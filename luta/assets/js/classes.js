@@ -27,12 +27,32 @@ class TeamHarry extends Character {
     }
 }
 
+class Grawp extends Character {
+    constructor(name) {
+        super("Grawp");
+        this.life = 80;
+        this.attack = 12;
+        this.defense = 7;
+        this.maxLife = this.life;
+    }
+}
+
 class TeamVoldemort extends Character {
     constructor(name) {
         super(name);
         this.life = 85;
         this.attack = 10;
         this.defense = 5;
+        this.maxLife = this.life;
+    }
+}
+
+class Trasgo extends Character {
+    constructor(name) {
+        super("Trasgo");
+        this.life = 70;
+        this.attack = 15;
+        this.defense = 4;
         this.maxLife = this.life;
     }
 }
